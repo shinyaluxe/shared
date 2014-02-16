@@ -100,7 +100,7 @@ input[type="checkbox"]:checked + label {
     display: table-cell;
 	width: 120px;
 }
-th {/*added on 20140217*/
+th {/*added on 20140216*/
 	cursor: pointer;
 }
 #go-to-top {
