@@ -1,0 +1,160 @@
+@charset "UTF-8";
+/* CSS Document */
+
+ul {
+	padding: 0;
+}
+
+.flex {
+	display: -webkit-flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	/* justify-content: center; */
+	align-content: flex-start;
+	width: 140px;
+	border: #000 1px solid;
+}
+
+.number {
+	-webkit-box-lines: multiple;
+	width: 30px;
+	height: 30px;
+	margin: 0 10px 10px 0;
+	text-align: center;
+	line-height: 30px;
+	-webkit-border-radius: 15px;
+	text-shadow: 1px 1px 0 #FFF, 2px 2px 2px #aaa;
+}
+.number:nth-child(odd) {
+	background: -webkit-radial-gradient(cover,#ccc, #fff);
+}
+.number:nth-child(even) {
+	background: -webki
+}
+.wrapper {
+	display: table;
+	width: 100%;
+}
+.table01 {
+	display:table;
+	table-layout: fixed;
+	width: 100%;
+	min-width: 950px;
+	text-align: center;
+}
+.th {
+	display: table-header-group;
+	font-weight: bold;
+	background: #CCC;
+}
+.trg {
+	display: table-row-group;
+}
+.tr {
+	display: table-row;
+}
+.tc {
+	display: table-cell;
+	padding: 2px;
+	border: #CCC 1px solid;
+}
+.tc:first-child {
+	width: 50px;
+}
+.tc:nth-child(even) {
+	width: 120px;
+}
+/*.tc:last-child {
+	width: 100px;
+}*/
+
+.tf {
+	display: table-footer-group;
+	width: 100%;
+	background: #ccc;
+	text-align: center;
+}
+.al {
+	text-align: left;
+}
+.ar {
+	text-align: right;
+}
+
+input[type="checkbox"]:checked + label {
+	font-weight: bold;
+}
+.check {
+    display: table-cell;
+	width: 50px;
+}
+.date {
+    display: table-cell;
+	width: 120px;
+}
+.name {
+    display: table-cell;
+	text-align: left;
+}
+.price {
+    display: table-cell;
+	width: 120px;
+}
+th {
+	cursor: pointer;
+}
+#go-to-top {
+	position: fixed;
+	right: 10px;
+	bottom: 20px;
+}
+
+#slider, #slider2 {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.thumbnail li, .thumbnail2 li {
+	display: inline-block;
+}
+.thumbnail li + li, .thumbnail2 li + li {
+	margin-left: 5px;
+}
+.thumbnail li img, .thumbnail2 li img {
+	width: 100px;
+	height: auto;
+	opacity: 0.3;
+}
+#main img {
+	width: 500px;
+	height: auto;
+}
+.thumbnail li img.current {
+	opacity: 1;
+}
+
+/* Parallax */
+#parallax {
+	height: 2400px;
+}
+.box {
+	width: 100px;
+	height: 100px;
+	position: fixed;
+	top: 50px;
+}
+#box1 {
+	background: #bf0000;
+}
+#box2 {
+	background: #eee;
+	top: 100px;
+	left: 50px;
+}
+#box3 {
+	background: #666;
+	left: 200px;
+}
+.img {
+	height: 800px;
+}

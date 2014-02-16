@@ -1,0 +1,169 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Table Sorting</title>
+<link rel="stylesheet" href="style.css">
+</head>    
+<body>
+
+<div id="parallax">
+<!--
+<div id="box1" class="box"></div>
+<div id="box2" class="box"></div>
+<div id="box3" class="box"></div>
+-->
+
+<div id="img1" class="img"><img src="http://panic.com/jp/coda/images/shot1.jpg"></div>
+<div id="img2" class="img"><img src="http://panic.com/jp/coda/images/shot2.jpg"></div>
+<div id="img3" class="img"><img src="http://panic.com/jp/coda/images/shot3.jpg"></div>
+</div>
+
+<div class="wrapper">
+<div class="table01">
+<div class="th">
+<div class="check">削除</div>
+<div class="date">日付</div>
+<div class="name">名称</div>
+<div class="price">予算</div>
+</div>
+<div class="trg">
+<div class="tr">
+<div class="check"><input type="checkbox" name="delete"></div>
+<div class="date"><label name="delete">2013/10/1</label></div>
+<div class="name">名前をいれるところ</div>
+<div class="price">¥100,000</div>
+</div>
+<div class="tr">
+<div class="check"><input type="checkbox" name="delete"></div>
+<div class="date"><label name="delete">2013/11/1</label></div>
+<div class="name">名前をいれるところ</div>
+<div class="price">¥100,000</div>
+</div>
+<div class="tr">
+<div class="check"><input type="checkbox" name="delete"></div>
+<div class="date"><label name="delete">2013/12/1</label></div>
+<div class="name">名前をいれるところ</div>
+<div class="price">¥100,000</div>
+</div>
+</div>
+<div class="tf">
+<div class="tr">
+<div class="tc">footer</div>
+</div>
+</div>
+</div>
+
+<br>
+
+<table width="200" border="1">
+  <thead>
+  <tr>
+    <th scope="col">Number<span></span></th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>4</td>
+  </tr>
+  <tr>
+    <td>5</td>
+  </tr>
+  <tr>
+    <td>6</td>
+  </tr>
+  <tr>
+    <td>7</td>
+  </tr>
+  <tr>
+    <td>8</td>
+  </tr>
+  <tr>
+    <td>9</td>
+  </tr>
+  <tr>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td>11</td>
+  </tr>
+  <tr>
+    <td>12</td>
+  </tr>
+  <tr>
+    <td>13</td>
+  </tr>
+  <tr>
+    <td>14</td>
+  </tr>
+  <tr>
+    <td>15</td>
+  </tr>
+  <tr>
+    <td>10</td>
+  </tr>
+  </tbody>
+</table>
+
+
+<p>文字数カウント</p>
+<textarea id="memo"></textarea>
+<div id="count"></div>
+
+<div id="slider">
+<ul class="thumbnail">
+</ul>
+
+<p id="main"></p>
+<div id="control">
+<button id="prev">&laquo;前へ</button>
+<button id="next">次へ&raquo;</button>
+</div>
+</div>
+
+<!--<div id="slider2">
+<ul class="thumbnail2">
+<li><img src="http://a.ichiba.jp.rakuten-static.com/com/img/thumb/200309/message/flash/201312/20131210_point10_195x60_03.gif"></li>
+<li><img src="http://a.ichiba.jp.rakuten-static.com/com/img/thumb/200309/message/flash/201312/20131101_toshikoshi_153_195x60.jpg"></li>
+<li><img src="http://a.ichiba.jp.rakuten-static.com/com/img/thumb/200309/message/flash/201311/20131101_xmas_48_195x60a.jpg"></li>
+<li><img src="http://a.ichiba.jp.rakuten-static.com/com/img/thumb/200309/message/flash/201311/20131101_oseibo_40_195x60.jpg"></li>
+</ul>
+<p id="main2"><img src="http://a.ichiba.jp.rakuten-static.com/com/img/thumb/200309/message/flash/201312/20131210_point10_195x60_03.gif"></p>-
+
+<div id="control2">
+<button id="prev2">&laquo;前へ</button>
+<button id="next2">次へ&raquo;</button>
+</div>
+</div>
+-->
+
+<!-- クリックイベント -->
+<ul id="tabs"><!--
+--><li class="active"><a href="#tab0">ファンドの<br>目的・特色</a></li><!--
+--><li><a href="#tab1">投資リスク</a></li><!--
+--><li><a href="#tab2">お申込みメモ<br>費用・税金</a></li><!--
+--><li><a href="#tab3">目論見書・<br>レポート</a></li><!--
+--><li><a href="#tab4">販売会社</a></li><!--
+--><li><a href="#tab5">投資家の<br>皆さまへ</a></li><!--
+--><li class="last"><a href="#tab6">Q&amp;A</a></li><!--
+--></ul>
+
+
+
+
+<div id="go-to-top">▲<a href="#">ページの先頭へ</a></div>
+
+<script src="jquery-1.10.2.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
